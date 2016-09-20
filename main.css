@@ -33,5 +33,136 @@
 
 .vertical {
     height: 150px;
-    line-height: 150px;
+    text-align: left;
+    padding-top: 90px;
 }
+
+.vertical-multi {
+    height: 200px;
+    text-align: left;
+    padding-top: 90px;
+}
+
+.horizontal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-list > li {
+    display: inline;
+    padding-right: 0;
+}
+
+.largebox {
+    background-color: rgba(255,102,102,.6);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 140px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: large;
+}
+
+.medbox {
+    background-color: rgba(255,102,102,.6);
+    color: white;
+    border-radius: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    width: 140px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    border: none;
+}
+
+.smallbox {
+    background-color: rgba(255,102,102,.6);
+    color: white;
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: none;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: small;
+}
+
+.navigation > ul {
+    list-style-type: none;
+    background-color: rgba(255,102,102,.6);
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+
+ .navigation > ul > li {
+    display: inline;
+ }
+ 
+ .navigation > ul > li a {
+    color: white;
+    margin-right: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    width: 140px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+    border: none;
+ }
+ 
+ .pagination {
+    color: rgba(255,102,102,.6);
+ }
+ 
+ .pagination > li {
+    list-style-type: none;
+    display: inline;
+ }
+ 
+ .pagination > li a {
+    color: rgba(255,102,102,.6);
+    margin: 5px;
+    text-decoration: none;
+    width: 25px;
+    vertical-align: middle;
+    text-align: center;
+    display: inline-block;
+    font-size: medium;
+ }
+ 
+ .border {
+    border-bottom: solid;
+    border-bottom-width: medium;
+    border-bottom-color: rgba(255,102,102,.6);
+ }
+ 
+ .eight {
+     color: rgba(204,204,204,.8);
+     margin: 5px;
+     text-decoration: none;
+     width: 25px;
+     display: inline-block;
+     vertical-align: middle;
+     text-align: center;
+     font-size: medium;
+ }
+ 
+ .border8 {
+    border-bottom: solid;
+    border-bottom-width: medium;
+    border-bottom-color: rgba(204,204,204,.8);
+ }
